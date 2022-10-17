@@ -1,0 +1,75 @@
+body{
+    background-image: url(denimblue.jpg);
+    background-size: 100000px;
+}
+
+x1{
+    background-color: lightgreen;
+}
+.button{
+    display: ruby-base;
+    border-radius: 4px;
+    background-color: #ec5a20;
+    border: black;
+    color: #0a0a0a86;
+    text-align: center;
+    font-size: 28px;
+    padding: 10px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -30px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  .search input[type=text]{
+    width:300px;
+    height:35px;
+    border-radius:25px;
+    border: none;
+
+}
+.searchbox {  
+  float: left;  
+  }  
+  input[type=text] {  
+  padding: 6px;  
+  margin-top: 8px;  
+  font-size: 17px;  
+  border: none;  
+  }  
+  .searchbox button {  
+    
+  padding: 8px;  
+  margin-top: 10px;  
+  margin-left: 10px;  
+  background: orange;  
+  font-size: 20px;  
+  border: none;  
+  cursor: pointer;  
+  }  
+  .searchbox button:hover {  
+  background: blue;  
+  }  
